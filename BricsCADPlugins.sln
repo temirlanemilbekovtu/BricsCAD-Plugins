@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BricsCADPlugins", "BricsCADPlugins\BricsCADPlugins.csproj", "{33E2BA3E-2BCD-4443-8F8B-71B099E22F01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33E2BA3E-2BCD-4443-8F8B-71B099E22F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E2BA3E-2BCD-4443-8F8B-71B099E22F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E2BA3E-2BCD-4443-8F8B-71B099E22F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E2BA3E-2BCD-4443-8F8B-71B099E22F01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
