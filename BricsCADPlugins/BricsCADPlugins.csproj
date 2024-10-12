@@ -39,12 +39,14 @@
         <Reference Include="System"/>
         <Reference Include="System.Core"/>
         <Reference Include="System.Data"/>
+        <Reference Include="System.Windows.Forms" />
         <Reference Include="System.Xml"/>
         <Reference Include="TD_Mgd">
           <HintPath>..\..\..\..\..\Program Files\Bricsys\BricsCAD V24 en_US\TD_Mgd.dll</HintPath>
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="AirfoilsHelper.cs" />
         <Compile Include="TransformationsHelper.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
