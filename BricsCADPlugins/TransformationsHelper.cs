@@ -7,7 +7,7 @@ using Teigha.Runtime;
 
 namespace BricsCADPlugins
 {
-    public static class Functions
+    public static class TransformationsHelper
     {
         [CommandMethod("StretchRelatively")]
         public static void StretchRelatively() {
@@ -17,8 +17,7 @@ namespace BricsCADPlugins
 
             using (Transaction tr = db.TransactionManager.StartTransaction()) {
                 var selRes = editor.GetSelection();
-                if (selRes.Status != PromptStatus.OK)
-                    return;
+                if (selRes.Status != PromptStatus.OK) return;
 
                 SelectionSet selection = selRes.Value;
                 var entities = new List<Entity>();

@@ -45,7 +45,7 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Functions.cs" />
+        <Compile Include="TransformationsHelper.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
     <ItemGroup>
